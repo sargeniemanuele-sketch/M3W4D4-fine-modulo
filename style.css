@@ -1,0 +1,52 @@
+body,
+body.bg-black {
+    background-color: rgb(20 20 20) !important;
+}
+
+.footer-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg-dark,
+.bg-black,
+.navbar {
+    background-color: rgb(20 20 20) !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0;
+    width: 2rem;
+    height: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: opacity 0.2s linear;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+    opacity: 1;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel .col img {
+    transition: transform 0.5s ease;
+}
+
+.carousel .col:hover img {
+    transform: scale(1.10);
+}
+
+.btn {
+    border-radius: 0 !important;
+}
